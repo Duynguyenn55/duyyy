@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       authcode:
-        description: 'Nhập code'
+        description: '& "${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="4/0AVHEtk5URmHMIgMFpCYIig4QyFaAiZh7zlKFOG29ZK42gLnSluaW_UDVX9jIiuNf0HzYDA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$Env:COMPUTERNAME'
         required: true
       pincode:
-        description: 'Nhập mã pin tuỳ ý (6 số)'
+        description: '10122007'
         required: true
   
 jobs:
